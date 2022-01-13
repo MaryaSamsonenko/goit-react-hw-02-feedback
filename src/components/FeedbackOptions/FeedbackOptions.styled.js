@@ -3,7 +3,7 @@ export const Button = styled.button`
   padding: 12px;
   border: none;
   cursor: pointer;
-  min-width: 72px;
+  min-width: 92px;
   border-radius: 4px;
   font-size: 20px;
   font-weight: 600;
