@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import propTypes from "prop-types";
+// import propTypes from "prop-types";
 import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
 import { Notification } from "./Notification/Notification";
 import { Section } from "./Section/Section";
@@ -60,14 +60,14 @@ export class App extends Component {
     );
   }
 }
-App.propTypes = {
-  title: propTypes.string,
-  options: propTypes.arrayOf(propTypes.string),
-  onLeaveFeedback: propTypes.elementType,
-  good: propTypes.number,
-  bad: propTypes.number,
-  neutral: propTypes.number,
-  total: propTypes.number,
-  positivePercentage: propTypes.number,
-  message: propTypes.string,
-};
+// App.propTypes = {
+//   title: propTypes.string,
+//   options: propTypes.arrayOf(propTypes.string),
+//   onLeaveFeedback: propTypes.elementType,
+//   good: propTypes.number,
+//   bad: propTypes.number,
+//   neutral: propTypes.number,
+//   total: propTypes.number,
+//   positivePercentage: propTypes.number,
+//   message: propTypes.string,
+// };
